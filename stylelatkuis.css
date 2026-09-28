@@ -1,0 +1,110 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#productCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DDDDDD;
+    border-radius: 20px;
+    width: 900px;
+}
+
+#gambar {
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.keterangan {
+    padding: 20px;
+}
+
+#kategori {
+    color: #777777;
+    font-size: medium;
+}
+
+#produk {
+    color: black;
+    font-weight: bold;
+}
+
+#deskripsi {
+    color: #666666;
+    font-size: medium;
+}
+
+#harga {
+    color: black;
+    font-weight: bold;
+}
+
+.warna {
+    margin: 20px;
+}
+
+.pilihanWarna {
+    display: flex;
+    gap: 5px;
+}
+
+#btnHitam {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    border-color: white;
+}
+
+#btnBiru {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #CFE2FF;
+    border-color: white;
+}
+
+#btnKrem {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #F5E6CC;
+    border-color: white;
+}
+
+.btn-dark {
+    background-color: black;
+    border-color: black;
+    width: 100%;
+}
+
+.btn-dark:hover {
+    background-color: gray;
+    border-color: gray;
+}
